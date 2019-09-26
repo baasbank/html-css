@@ -1,0 +1,24 @@
+/* General reset to remove browser applied styles */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+/* Set the root font-size to make it easy to convert measurements to rem */
+
+html {
+    font-size: 62.5%;
+    // The root font-size is a percentage of the browser font-size. This makes it possible for the font-size to be changed by users
+}
+
+
+/* project wide font definition */
+
+body {
+    box-sizing: border-box;
+}
